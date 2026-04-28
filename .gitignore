@@ -1,0 +1,59 @@
+# Python相关
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.conda/
+.venv/
+
+# 模型文件（大型模型不建议上传）
+*.pt
+*.pth
+models/best.pt
+
+# 日志文件
+*.log
+logs/
+
+# 数据集（大型数据集不建议上传）
+datasets/
+data/
+
+# 前端相关
+node_modules/
+dist/
+build/
+*.local
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 数据库文件
+*.db
+*.sqlite
+
+# 缓存文件
+.cache/
+.temp/
+.tmp/
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 上传的图片（如果需要保留示例图片可删除此行）
+# images/
